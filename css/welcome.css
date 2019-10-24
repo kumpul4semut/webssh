@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	padding: 0px;
+	margin:0px;
+}
+
+.bg-primary-gradient{
+	background: linear-gradient(to right, #FFAA57, #FE5F75)
+}
+
+/*navbar*/
+.navbar-brand, .nav-link{
+	color: #E8E8E8;
+}
+
+/*jumbotron*/
+@media (max-width: 576px) {
+	.jumbotron{
+		margin:auto;
+	}
+	.jumbo-img{
+		width: 175px;
+		height: 175px;
+		margin-top: 40px;
+	}
+
+	.jumbo-text{
+		font-size: 30px;
+		margin-top: -20px;
+	}
+
+	.text-footer{
+		font-size: 18px;
+	}
+
+	.footer{
+		padding-top: 20px;
+	}
+}
+.jumbo-text{
+	color: #E8E8E8;
+	text-align: center;
+	margin-top: 110px;
+}
+
+/*content*/
+@media (min-width: 1200px) { 
+	.content{
+		padding: 0px 150px 0px 150px;
+	}
+}
+
+.info-ssh{
+	text-align: left;
+}
+
+/*footer*/
+.footer{
+	background:  #FE8167;
+	color: #E8E8E8;
+	height: 100px;
+	height: 100%;
+	padding-top: 50px;
+}
+
+/*updated bootstrap*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232,232,232)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(232,232,232);
+}
+
+.bg-primary, .btn-primary{
+	background: #FE8167 !important;
+	color: #E8E8E8;
+	font-weight: bold;
+	border: none;
+} 
